@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.player_title_1 {
+    margin: 20px;
+}
+
+.player_title_2 {
+    margin: 20px;
+}
+
+.player1 {
+    background-color: #E0E0E2;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.symbol_black {
+    color: black;
+    display: inline;
+}
+
+.deck_symbols_black {
+    display: inline;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: black;
+}
+
+.symbol_red {
+    color: red;
+    display: inline;
+}
+
+.deck_symbols_red {
+    display: inline;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: red;
+}
+
+.player2 {
+    background-color: #E0E0E2;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.deck_symbols_black {
+    display: inline;
+    font-size: 50px;
+}
