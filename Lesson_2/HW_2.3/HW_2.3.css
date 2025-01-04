@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4F6F51;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.month {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #D2E2C9;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    transition: 1s;
+}
+
+.month:hover {
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+p {
+    color: black;
+    margin: 10px 0;
+}
+
+.month p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
