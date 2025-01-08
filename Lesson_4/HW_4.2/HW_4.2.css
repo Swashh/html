@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.top, .bottom {
+    height: 20%;
+    background: #D9D9D9;
+}
+
+.middle {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.left, .right {
+    width: 30vw;
+    background: #C0BDBD;
+}
+
+.center {
+    width: 40vw;
+    background: #A4A4A4;
+}

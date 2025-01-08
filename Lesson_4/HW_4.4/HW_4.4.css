@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    height: 20%;
+    background: #8D8484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+footer {
+    height: 20%;
+    background: #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+main {
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.content {
+    height: 100%;
+    width: 65.938vw;
+    display: flex;
+    justify-content: left;
+    align-content: start;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+}
+
+.section1 {
+    background: #776969;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    background: #643030;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    background: #441818;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bar {
+    height: 100%;
+    width: 34.06200vw;
+    display: flex;
+    justify-content: left;
+    align-content: start;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+}
+
+.spam1 {
+    background: #937575;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spam2 {
+    background: #644C4C;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
