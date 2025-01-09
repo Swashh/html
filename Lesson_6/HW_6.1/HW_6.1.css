@@ -1,0 +1,36 @@
+* {
+    background: grey;
+
+}
+
+.main_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.box1 ol li:nth-child(2n) {
+    color: pink;
+}
+
+.box2 ol li:nth-child(2n+1) {
+    font-size: 22px;
+}
+
+.box3 ol li:nth-child(2n+4):after {
+    content: "!";
+}
+
+.box4 ol li:last-child {
+    color: purple;
+}
+
+
+.box5 ol li:first-letter {
+    font-size: 30px;
+    color: red;
+}
+

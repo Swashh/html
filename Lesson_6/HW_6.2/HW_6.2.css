@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background: #028B8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 70vh;
+    height: 50vh;
+    background: white;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background: #E9F3F3;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+
+.auth_container {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login, #password {
+    height: 35px;
+    width: 50vh;
+}
+
+.accept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23vh;
+}
+
+button {
+    background: #E9F3F3;
+    width: 11vh;
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid;
+}
