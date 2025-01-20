@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) and (min-width: 375px) {
+    main {
+        padding: 48px 24px;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-item {
+        margin: 0;
+    }
+
+    .feature-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    h3 {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+        color: rgba(22, 21, 67, 1);
+
+    }
+
+    p {
+        color: #7687A1;
+
+        /* Text/3 regular */
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+        align-items: stretch;
+    }
+}
