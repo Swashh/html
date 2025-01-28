@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    pading: 0;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    background: saddlebrown;
+    grid-template-columns: 1fr  1fr 1fr;
+}
+
+item {
+    background: #B3A0CD;
+    border: 2px solid white;
+}
